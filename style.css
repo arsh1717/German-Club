@@ -61,6 +61,18 @@ li{
 	position: relative;
 }
 
+.navbar-brand
+{
+	position: relative;
+	
+}
+
+.navbar-brand img
+{
+	align-items: flex-start;
+	height: 45px;
+	
+}
 .header:before{
 	content: "";
     position: absolute;
@@ -207,6 +219,12 @@ i{ color: #2fccd0; }
 	margin: 20px 0 10px 0;
 }
 
+.course p{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
 .service-icons{
 	display: flex;
 	justify-content: center;
@@ -224,6 +242,12 @@ i{ color: #2fccd0; }
 	font-size: 2rem;
 	text-align: center;
 }
+/* .project-work p{
+	text-align: center;
+	position: relative;
+	padding: 0%;
+	margin: 0%;
+} */
 
 /*********************** project works end ************/
 
@@ -318,7 +342,7 @@ i{ color: #2fccd0; }
 /**************** pricing end ************/
 
 
-/**************** happy clients starts ************/
+/**************** happy studentsstarts ************/
 
 .happyclients{
 	width: 100%;
@@ -500,6 +524,17 @@ form:hover button{
 	text-transform: capitalize;
 }
 
+ .social i{ color: #2e2e2e;
+		margin-left: 10px;
+		position:relative;
+		padding: 5px;
+
+	
+
+	
+
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -508,7 +543,7 @@ form:hover button{
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #00A8FF; /* Set a background color */
+  background-color: #6b6b6b; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 10px; /* Some padding */
